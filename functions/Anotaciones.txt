@@ -1,0 +1,13 @@
+npm install webpack webpack-cli
+
+npm install @babel/core babel-loader @babel/preset-react @babel/preset-env -D
+
+los plugins te permiten hacer cosas con webpack
+
+npm install --save-dev html-webpack-plugin
+
+lo que hace es relacionarte un index.html con un bundle/main.js, sino siempre se deberia estar actualizando de forma manual el html, ademas te permite configurar que template queres usar, por ejemplo uno de react, lo voy a hacer con ese template para que sepa cual es el div root
+
+npm install -D webpack-dev-server sirve para no crear de vuelta tooodo, deja en memoria los archivos, se complica cuando se hace muy grande la config de webpack
+
+barrio norte mz 7pc12 general San martin
